@@ -1,5 +1,5 @@
 # Speedtest to MQTT
-This script was created to provide network speedtest results to a MQTT sensor in  [HomeAssistant](https://home-assistant.io). The python speedtest-cli is resource intensive and is recommended to be run on a system other than your main [HomeAssistant](https://home-assistant.io) instance. The script is constrained by the system's network adapter and network equipment.
+This script was created to provide network speedtest results to a MQTT sensor in  [HomeAssistant](https://home-assistant.io). The python speedtest-cli is resource intensive and is recommended to be run on a system other than your main [HomeAssistant](https://home-assistant.io) instance. The script is constrained by the system's network adapter and your network equipment.
 
 ## Requirements
 * You will need python to execute this script.
