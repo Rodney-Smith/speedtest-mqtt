@@ -3,7 +3,7 @@ Description=speedtest-cli reporting over MQTT
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/env python3 /opt/scripts/speedtest-mqtt.py
+ExecStart=/usr/bin/env python3 /opt/speedtest-mqtt/speedtest-mqtt.py
 WorkingDirectory=/opt/scripts
 TimeoutStartSec=120
 TimeoutStopSec=30
