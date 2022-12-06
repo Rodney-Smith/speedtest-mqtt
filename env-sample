@@ -1,0 +1,24 @@
+app_mode=prod
+
+# MQTT Configuration
+broker=192.168.1.2
+port=1883
+user=mqtt
+password=secretpw
+topic=speedtest/
+
+# How to Specify a Server:
+# You might use speedtest-cli to test your servers’ network capacity at some
+# point. While the tool itself provides a good platform for running speed tests,
+# sometimes the server selection that the tool provides can be less than
+# optimal. However, you can pass the --list switch to generate a list of
+# speedtest servers. Then, you can use the resulting server ID to target a
+# certain speedtest server.
+# The following command should show the list:
+# speedtest-cli --list
+# Set to False for auto best server
+test_server=False
+
+# Interval, in seconds, you want to run the updates. 3600 = 1 hour. Set interval
+# to 0 if you want to the script to exit after one run.
+interval=14400
